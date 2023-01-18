@@ -37,6 +37,7 @@ function encriptar(){
     }
     document.getElementById("resultado").style.display = "inline-block";
     document.getElementById("botonCopiar").style.display = "inline-block";
+    mensajeEncriptado = "";
 }
 
 function desencriptar(){
