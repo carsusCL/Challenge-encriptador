@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador y Desencriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img class="encabezado" src="imagenes/Logo.png"/>
+        </header>
+
+        <main>
+            <section class="caja-texto">
+                <textarea id="texto" class="texto" placeholder="Ingresa el texto aqui"></textarea>
+                <p>&#9406 Solo letras minúsculas y sin acentos</p>
+                <div class="botones">
+                    <button  id="botonEncriptar" class="boton">Encriptar</button>
+                    <button id="botonDesencriptar" class="boton">Desencriptar</button>
+                </div>
+            </section>
+            
+            <section class="caja-resultado">
+                <div id="presentacion">
+                    <img class="lupa" src="imagenes/lupa.png"/>
+                    <p>Ningun mensaje fue encontrado</p>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <textarea id="resultado" class="resultado"></textarea>
+                <button id="botonCopiar">Copiar</button>
+
+            </section>
+    
+        </main>
+
+        <footer>
+            <p>Created by CJCL</p>
+        </footer>
+
+        <script src="encriptador.js"></script>
+    </body>
+
+</html>
