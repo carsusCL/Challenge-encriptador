@@ -51,6 +51,7 @@ body{
 }
 
 .resultado{
+    font-family: 'Special Elite', cursive;
     width: 100%;
     height: 740px;
     background:none;
