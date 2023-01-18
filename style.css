@@ -103,6 +103,7 @@ button:active{
 }
 
 footer p{
+    text-align: right;
     margin: 0px;
 }
 
