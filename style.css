@@ -105,3 +105,49 @@ button:active{
 footer p{
     margin: 0px;
 }
+
+@media screen and (max-width:1330px){
+
+    main{
+        text-align: center;
+    }
+
+    .caja-texto{
+        display: inline-block;
+        padding: 20px 20px;
+        text-align: center;
+        
+        font-family: 'Special Elite', cursive;
+        width: 90%;
+        height: 700px;
+        margin: 20px;
+    }
+
+    .caja-resultado{
+        background: #E7DEC8;
+        font-size: 1.5em;
+        font-family: 'Special Elite', cursive;
+        color: #7E8A97;
+        width: 90%;
+        height: 500px;
+        padding: 20px 20px ;
+        box-sizing: border-box;
+        border-radius: 20px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px;
+        margin-top: 50px;
+        box-shadow: 10px 10px 30px gray;
+    }
+
+    .lupa{
+        display: none;
+    }
+
+    .botones{
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+}
